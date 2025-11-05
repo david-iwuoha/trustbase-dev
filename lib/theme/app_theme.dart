@@ -122,7 +122,7 @@ class AppTheme {
     ),
 
     // Card theme with subtle elevation
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: surfaceLight,
       elevation: 2.0,
       shadowColor: Colors.black.withValues(alpha: 0.1),
@@ -318,7 +318,7 @@ class AppTheme {
     ),
 
     // Tab bar theme
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: primaryLight,
       unselectedLabelColor: textSecondaryLight,
       indicatorColor: primaryLight,
@@ -364,7 +364,7 @@ class AppTheme {
     ),
 
     // Dialog theme
-    dialogTheme: DialogTheme(
+    dialogTheme: DialogThemeData(
       backgroundColor: surfaceLight,
       elevation: 8.0,
       shadowColor: Colors.black.withValues(alpha: 0.1),
@@ -436,7 +436,7 @@ class AppTheme {
     ),
 
     // Card theme with subtle elevation
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: surfaceDark,
       elevation: 2.0,
       shadowColor: Colors.black.withValues(alpha: 0.3),
@@ -632,7 +632,7 @@ class AppTheme {
     ),
 
     // Tab bar theme
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: primaryDark,
       unselectedLabelColor: textSecondaryDark,
       indicatorColor: primaryDark,
@@ -678,7 +678,7 @@ class AppTheme {
     ),
 
     // Dialog theme
-    dialogTheme: DialogTheme(
+    dialogTheme: DialogThemeData(
       backgroundColor: surfaceDark,
       elevation: 8.0,
       shadowColor: Colors.black.withValues(alpha: 0.3),
